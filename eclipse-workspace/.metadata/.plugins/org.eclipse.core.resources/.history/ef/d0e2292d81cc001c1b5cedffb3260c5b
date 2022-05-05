@@ -1,0 +1,48 @@
+
+public class Principal {
+Cliente c;
+Pedido p;
+Produto p1, p2, p3;
+
+	public void entraDados() {
+		 c = new Cliente();
+		 c.set
+		
+		
+		p1 = new Produto();
+		
+		
+		p2 = new Produto();
+		
+		
+		p3 = new Produto();
+		
+		
+		Produto vetor[] = new Produto[3];
+		vetor[0] = p1;
+		vetor[1] = p2;
+		vetor[2] = p3;
+		
+		c = new Curso();
+		c.setNome("Sistemas de Informação");
+		c.setProfessor("Francisco dos Santos");
+}
+
+	public void mostraDados() {
+		System.out.println("O curso e seus dados");
+		System.out.println("---------------------");
+		System.out.println("	Nome do curso     : " + c.getNome());
+		System.out.println("       Aluno          : " + a.getNome());
+		System.out.println("    RA Aluno          : " + a.getRa());
+		System.out.println("    Disciplina        : " + a.getDisciplina());
+		/*for(int i=0; i<3; i++) {
+			System.out.println("	Carga Numero   : "+ c.getCarga()[i].getNumero());
+			System.out.println("	Valor R$       : " + c.getCarga()[i].getValor());
+		}*/
+	
+	public static void main(String[] args) {
+		Principal p = new Principal();
+		p.entraDados();
+		p.mostraDados();
+	}
+}

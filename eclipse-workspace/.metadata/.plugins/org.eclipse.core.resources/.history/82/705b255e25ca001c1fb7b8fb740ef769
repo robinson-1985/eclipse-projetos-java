@@ -1,0 +1,22 @@
+
+public class Principal {
+Email e;
+Aluno a;
+Curso c;
+
+	public void entraDados() {
+		e = new Email();
+		e.setEmail
+		
+		a = new Aluno();
+		a.setNome("Bruno dos Santos");
+	}
+	
+	public void mostraDados() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

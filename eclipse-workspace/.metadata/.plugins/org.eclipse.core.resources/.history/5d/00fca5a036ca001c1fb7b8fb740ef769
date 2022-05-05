@@ -1,0 +1,35 @@
+
+public class Principal {
+Aluno a;
+Professor p;
+Pessoa pe;
+
+	public void entraDados() {
+		pe = new Pessoa();
+		pe.setNome("Adam Jones");
+		pe.setCpf(3465);
+		
+		p = new Professor();
+		p.setNome("Augusto Dias");
+		p.setTitulacao("Doutor");
+		
+		a = new Aluno();
+		a.setNome("Raul Gazzolla");
+		a.setRa(123456);
+		
+}
+	
+	public void mostraDados() {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		Principal p = new Principal();
+		p.entraDados();
+		p.mostraDados();
+	}
+}

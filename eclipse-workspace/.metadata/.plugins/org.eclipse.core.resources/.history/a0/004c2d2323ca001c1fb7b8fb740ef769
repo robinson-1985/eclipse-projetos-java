@@ -1,0 +1,5 @@
+
+public class Estacionamento {
+	private String nome;
+	private String endereco;
+}

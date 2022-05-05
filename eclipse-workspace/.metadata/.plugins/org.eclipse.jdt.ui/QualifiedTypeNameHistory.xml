@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="diretoria.Professsor"/>
+    <fullyQualifiedTypeName name="diretoria.Professor"/>
+    <fullyQualifiedTypeName name="rh.Funcionario"/>
+    <fullyQualifiedTypeName name="vendas.Vendedor"/>
+    <fullyQualifiedTypeName name="estoque.Produto"/>
+    <fullyQualifiedTypeName name="rh.pessoal.Funcionario"/>
+    <fullyQualifiedTypeName name="apresentacao.logica.Validacao"/>
+    <fullyQualifiedTypeName name="negocio.Constante"/>
+    <fullyQualifiedTypeName name="negocio.Componente"/>
+    <fullyQualifiedTypeName name="atendimento.Pessoa"/>
+    <fullyQualifiedTypeName name="estoque.Bebidas"/>
+    <fullyQualifiedTypeName name="estoque.Comidas"/>
+    <fullyQualifiedTypeName name="atendimento.bar.Cliente"/>
+    <fullyQualifiedTypeName name="atendimento.Celular"/>
+    <fullyQualifiedTypeName name="salao.Mesa"/>
+    <fullyQualifiedTypeName name="comercial.Categoria"/>
+    <fullyQualifiedTypeName name="transportadora.frete.Carga"/>
+    <fullyQualifiedTypeName name="pessoal.marketing.Cadastro"/>
+    <fullyQualifiedTypeName name="comercial.loja.Peca"/>
+    <fullyQualifiedTypeName name="pessoal.crm.Cliente"/>
+    <fullyQualifiedTypeName name="pessoal.crm.Vendedor"/>
+    <fullyQualifiedTypeName name="logistica.Terrestre"/>
+    <fullyQualifiedTypeName name="model.sgbd.Oracle"/>
+    <fullyQualifiedTypeName name="model.dao.DaoUsuario"/>
+    <fullyQualifiedTypeName name="model.entidades.Usuario"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="rh.Marinheiro"/>
+    <fullyQualifiedTypeName name="comercio.vendas.Produto"/>
+    <fullyQualifiedTypeName name="departamento.estoque.compra.Pedido"/>
+    <fullyQualifiedTypeName name="cadastros.internet.Email"/>
+    <fullyQualifiedTypeName name="compras.Produto"/>
+    <fullyQualifiedTypeName name="crm.Pessoa"/>
+    <fullyQualifiedTypeName name="compras.Fornecedor"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

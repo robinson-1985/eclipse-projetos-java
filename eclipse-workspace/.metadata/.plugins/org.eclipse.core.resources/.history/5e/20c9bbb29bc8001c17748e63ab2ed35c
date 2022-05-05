@@ -1,0 +1,5 @@
+
+public class Aluno {
+	private long ra;
+	private int turma;
+}

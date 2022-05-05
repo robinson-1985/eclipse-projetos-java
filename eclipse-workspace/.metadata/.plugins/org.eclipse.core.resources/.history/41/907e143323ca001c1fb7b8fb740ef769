@@ -1,0 +1,5 @@
+
+public class Motorista {
+	private long cnh;
+	private String nome;
+}

@@ -1,0 +1,18 @@
+
+public class Principal {
+;
+;
+;
+
+	public void entraDados() {
+		
+	}
+	
+	public void mostraDados() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

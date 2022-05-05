@@ -1,0 +1,22 @@
+
+public class Principal {
+Aluno a;
+Professor p;
+Pessoa pe;
+
+	public void entraDados() {
+		
+	}
+	
+	public void mostraDados() {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		System.out.println();
+	}
+}

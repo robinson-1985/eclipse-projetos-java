@@ -1,0 +1,21 @@
+
+public class Principal {
+Veiculo v;
+Motorista m;
+Estacionamento e;
+
+	public void entraDados() {
+		
+	}
+	
+	public void mostraDados() {
+		System.out.println();
+		
+	}
+	
+	public static void main(String[] args) {
+		Principal p = new Principal();
+		p.entraDados();
+		p.mostraDados();
+	}
+}
