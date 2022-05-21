@@ -30,16 +30,21 @@ Produto p1, p2, p3;
 		p.setCliente(c);
 		p.setNumero(10);
 		p.setData("10/05/2022");
+		p.setCliente(c);
+		p.setProduto(vetor);
 	}
 
 	public void mostraDados() {
-		System.out.println("Pedidos de Produtos");
+		System.out.println("Dados do Pedido");
 		System.out.println("---------------------");
-		System.out.println("	Nome do cliente   : " + p.getCliente());
-		System.out.println("       Produto        : " + p.getProduto());
+		System.out.println("	Número do pedido  : " + p.getNumero());
+		System.out.println("       Data           : " + p.getData());
+		System.out.println("     Cliente          : " + p.getCliente().getNome());
+		System.out.println("     Endereço         : " + p.getCliente().getEndereco());
+		System.out.println("      Produtos  : ");
 			for(int i=0; i<3;i++) {
 				System.out.println(" Nome do Produto  : " + p.getProduto()[i].getNome());
-				System.out.println("	Valor R$      : " + p.getProduto()[i].getPreco());
+				System.out.println("	Preço R$      : " + p.getProduto()[i].getPreco());
 		}
 	}
 	

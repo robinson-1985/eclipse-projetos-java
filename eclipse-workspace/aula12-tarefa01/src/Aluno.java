@@ -5,6 +5,7 @@ public class Aluno {
 	private Disciplina disciplina[];
 	private Curso curso;
 	
+	
 	public long getRa() {
 		return ra;
 	}

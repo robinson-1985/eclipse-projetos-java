@@ -1,49 +1,67 @@
 
 public class Principal {
-Caminhao c;
-Motorista m;
-Carga c1, c2, c3;
+Orcamento o;
+Peca p1, p2, p3;
+Servico s1, s2, s3;
 
 	public void entraDados() {
-			m = new Motorista();
-			m.setCnh(123455);
-			m.setNome("Charlie Brown");
+			p1 = new Peca();
+			p1.setNome("Retentor");
+			p1.setPreco(200);
 			
-			c1 = new Carga();
-			c1.setNumero(112);
-			c1.setValor(11000);
+			p2 = new Peca();
+			p2.setNome("Buchas da balança");
+			p2.setPreco(58);
 			
-			c2 = new Carga();
-			c2.setNumero(113);
-			c2.setValor(3900);
+			p3 = new Peca();
+			p3.setNome("Virabrequin");
+			p3.setPreco(320);
 			
-			c3 = new Carga();
-			c3.setNumero(114);
-			c3.setValor(6200);
+			Peca vetorx[] = new Peca[3];
+			vetorx[0] = p1;
+			vetorx[1] = p2;
+			vetorx[2] = p3;
 			
-			Carga vetor[] = new Carga[3];
-			vetor[0] = c1;
-			vetor[1] = c2;
-			vetor[2] = c3;
+			s1 = new Servico();
+			s1.setNome("Reparo");
+			s1.setPreco("100");
 			
-			c = new Caminhao();
-			c.setPlaca("BMO3920");
-			c.setMotorista(m);
-			c.setCarga(vetor);
+			s2 = new Servico();
+			s2.setNome("Troca");
+			s2.setPreco("90");
+			
+			s3 = new Servico();
+			s3.setNome("Fresagem");
+			s3.setPreco("150");
+			
+			Servico vetory[] = new Servico[3];
+			vetory[0] = s1;
+			vetory[1] = s2;
+			vetory[2] = s3;
+			
+			o = new Orcamento();
+			o.setNumero(01);
+			o.setData("12/05/22");
+			o.setServico(vetory);
+			o.setPeca(vetorx);
+			
 	}
 
 	public void mostraDados() {
-		System.out.println("Caminhão e seus dados");
+		System.out.println("Dados do Orçamento");
 		System.out.println("---------------------");
-		System.out.println("Placa             : " + c.getPlaca());
-		System.out.println("Eixos             : " + c.getEixos());
-		System.out.println("   Motorista CNH  : " + c.getMotorista().getCnh());
-		System.out.println("   Motorista Nome : " + c.getMotorista().getNome());
+		System.out.println(" Número   : " + o.getNumero());
+		System.out.println("  Data    : " + o.getData());
+		System.out.println("   Peça   : ");
 		for(int i=0; i<3; i++) {
-			System.out.println("	Carga Numero   : "+ c.getCarga()[i].getNumero());
-			System.out.println("	Valor R$       : " + c.getCarga()[i].getValor());
+			System.out.println("Nome      : " + o.getPeca()[i].getNome() );
+			System.out.println("Valor     : R$ " + o.getPeca()[i].getPreco());
 		}
-		
+		System.out.println("  Serviços: ");
+		for(int i=0; i<3; i++) {
+			System.out.println("Serviços : " + o.getServico()[i].getNome());
+			System.out.println("Valor R$ : " + o.getServico()[i].getPreco());
+		}
 	}
 
 	public static void main(String[] args) {

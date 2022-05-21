@@ -5,10 +5,6 @@ Curso c;
 Disciplina d1, d2, d3;
 	
 	public void entraDados() {
-		a = new Aluno();
-		a.setNome("Robinson Dias");;
-		a.setRa(0202056);
-		
 		d1 = new Disciplina();
 		d1.setNome("Introdução à Lógica");
 		d1.setNumero(01);
@@ -29,19 +25,27 @@ Disciplina d1, d2, d3;
 		c = new Curso();
 		c.setNome("Sistemas de Informação");
 		c.setProfessor("Francisco dos Santos");
-}
+
+		a = new Aluno();
+		a.setNome("Robinson Dias");;
+		a.setRa(0202056);
+		a.setDisciplina(vetor);
+		a.setCurso(c);
+	}		
+		
 
 	public void mostraDados() {
 		System.out.println("O curso e seus dados");
 		System.out.println("---------------------");
-		System.out.println("	Nome do curso     : " + c.getNome());
-		System.out.println("       Aluno          : " + a.getNome());
-		System.out.println("    RA Aluno          : " + a.getRa());
-		System.out.println("    Disciplina        : " + a.getDisciplina());
-		/*for(int i=0; i<3; i++) {
-			System.out.println("	Carga Numero   : "+ c.getCarga()[i].getNumero());
-			System.out.println("	Valor R$       : " + c.getCarga()[i].getValor());
-		}*/
+		System.out.println("	Nome do curso      : " + a.getCurso().getNome());
+		System.out.println("       Aluno           : " + a.getNome());
+		System.out.println("    RA Aluno           : " + a.getRa());
+		System.out.println("    Disciplinas - " );
+		
+		for(int i=0; i<3; i++) {
+			System.out.println("	Curso          : "+ a.getDisciplina()[i].getNome());
+		}
+	}
 	
 	public static void main(String[] args) {
 		Principal p = new Principal();
