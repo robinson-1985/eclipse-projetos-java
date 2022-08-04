@@ -3,6 +3,10 @@ package com.loiane.estruturadados.labs;
 import java.util.Stack;
 
 public class Exer08_Pilha {
+	
+	/* Usando a classe Pilha ou Stack, desenvolva um algoritmo que 
+	   resolva o quebra cabeça Torre de Hanoi.*/
+
 
 	public static void main(String[] args) {
 

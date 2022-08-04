@@ -3,6 +3,9 @@ package com.loiane.estruturadados.labs;
 import java.util.Stack;
 
 public class Exer07_Pilha {
+	
+	/* Usando a classe Pilha ou Stack, desenvolva um algoritmo que 
+	   faça a conversão de números decimais para binário*/
 
 	public static void main(String[] args) {
 
